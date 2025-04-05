@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TextForm from './components/TextForm';
 import Navbar from './components/navbar';
 import Alert from './components/Alert';
+// import Textsummarizer from './components/Textsummarizer';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <TextForm heading="Enter the text to analyse" showAlert={showAlert} mode={mode} />
 
       </div>
+      
 
 
 
